@@ -9,7 +9,7 @@ function Footer(props) {
             <div className="container">
                 <div className="leftSide">
                    <h2>
-                    Copyright &copy; {currentYear} All Reserved
+                    Copyright &copy; {currentYear} All rights reserved
                    </h2>
                 </div>
                 <div className="rightSide">
