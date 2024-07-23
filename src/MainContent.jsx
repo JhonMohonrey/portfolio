@@ -20,7 +20,7 @@ function MainContent(props) {
                         <img src={profile} alt="profile picture" />
                     </div>
                     <div className="rightSide">
-                        <h1>Front-End React</h1>
+                        <h1>Front-End <span>React</span></h1>
                         <h1 className='devTxt'>Developer 💻</h1>
                         <p>
                             Hi I'm Jhon Ramos, A passionate Frontend Developer based in the philippines 🗺️

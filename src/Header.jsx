@@ -23,7 +23,7 @@ function Header(props) {
         <div className='headerContainer'>
             <div className="container">
                 <div className='titleContainer'>
-                    <h3>JRamos.dev</h3>
+                    <h3>JRamos<span>.Dev</span></h3>
                 </div>
 
                 {

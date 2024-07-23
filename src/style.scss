@@ -25,6 +25,10 @@ body {
             align-items: center;
             justify-content: center;
 
+            span {
+                color: #147EFB;
+            }
+
             h3 {
                 cursor: pointer;
                 font-size: clamp(16px, 1.5vw, 20px);
@@ -42,6 +46,11 @@ body {
                 cursor: pointer;
                 font-weight: 600;
                 font-size: clamp(16px, 1vw, 18px);
+                transition: color .15s ease-in-out;
+
+                &:hover {
+                    color: #147EFB;
+                }
 
                 &:active {
                     opacity: .7;

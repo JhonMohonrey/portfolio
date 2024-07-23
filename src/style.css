@@ -43,6 +43,10 @@ body h1, body p, body h2, body h3 {
           justify-content: center;
 }
 
+.headerContainer .container .titleContainer span {
+  color: #147EFB;
+}
+
 .headerContainer .container .titleContainer h3 {
   cursor: pointer;
   font-size: clamp(16px, 1.5vw, 20px);
@@ -66,6 +70,12 @@ body h1, body p, body h2, body h3 {
   cursor: pointer;
   font-weight: 600;
   font-size: clamp(16px, 1vw, 18px);
+  -webkit-transition: color .15s ease-in-out;
+  transition: color .15s ease-in-out;
+}
+
+.headerContainer .container .leftContainer p:hover {
+  color: #147EFB;
 }
 
 .headerContainer .container .leftContainer p:active {
